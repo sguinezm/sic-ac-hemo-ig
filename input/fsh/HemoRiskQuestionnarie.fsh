@@ -10,7 +10,9 @@ Description: "Cuestionario utilizado para factores de riesgo "
                 Angioplasty 1..1 and 
                 hypercholesterolemia 1..1 and 
                 carotidBruits 1..1 and 
-                familyHistoryHeartAttack 1..1
+                familyHistoryHeartAttack 1..1 and 
+                renalInsuficiency 1..1 and 
+                previousCrm 1..1
 
 * item[MyocardialInfarction].linkId = "MyocardialInfarction"
 * item[MyocardialInfarction].answer 1..1
@@ -37,3 +39,12 @@ Description: "Cuestionario utilizado para factores de riesgo "
 * item[familyHistoryHeartAttack].answer.value[x] only Coding
 * item[familyHistoryHeartAttack].answer.value[x] from FamilyHistoryHeartAttackVS
 
+* item[renalInsuficiency].linkId = "renal Insuficiency"
+* item[renalInsuficiency].answer 1..1
+* item[renalInsuficiency].answer.value[x] only Coding
+* item[renalInsuficiency].answer.value[x] from RenalInsuficiencyVS
+
+* item[previousCrm].linkId = "Previous Crm"
+* item[previousCrm].answer 1..1
+* item[previousCrm].answer.value[x] only Coding
+* item[previousCrm].answer.value[x] from PreviousCrmVS
