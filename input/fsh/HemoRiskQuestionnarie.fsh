@@ -8,7 +8,9 @@ Description: "Cuestionario utilizado para factores de riesgo "
 * item 1..*
 * item contains MyocardialInfarction 1..1 and 
                 Angioplasty 1..1 and 
-                hypercholesterolemia 1..1
+                hypercholesterolemia 1..1 and 
+                carotidBruits 1..1 and 
+                familyHistoryHeartAttack 1..1
 
 * item[MyocardialInfarction].linkId = "MyocardialInfarction"
 * item[MyocardialInfarction].answer 1..1
@@ -25,5 +27,13 @@ Description: "Cuestionario utilizado para factores de riesgo "
 * item[hypercholesterolemia].answer.value[x] only Coding
 * item[hypercholesterolemia].answer.value[x] from HypercholesterolemiaVS
 
+* item[carotidBruits].linkId = "carotid Bruits"
+* item[carotidBruits].answer 1..1
+* item[carotidBruits].answer.value[x] only Coding
+* item[carotidBruits].answer.value[x] from CarotidBruitsVS
 
+* item[familyHistoryHeartAttack].linkId = "family History Heart Attack"
+* item[familyHistoryHeartAttack].answer 1..1
+* item[familyHistoryHeartAttack].answer.value[x] only Coding
+* item[familyHistoryHeartAttack].answer.value[x] from FamilyHistoryHeartAttackVS
 
