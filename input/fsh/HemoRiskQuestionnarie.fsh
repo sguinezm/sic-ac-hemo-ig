@@ -12,7 +12,9 @@ Description: "Cuestionario utilizado para factores de riesgo "
                 carotidBruits 1..1 and 
                 familyHistoryHeartAttack 1..1 and 
                 renalInsuficiency 1..1 and 
-                previousCrm 1..1
+                previousCrm 1..1 and 
+                neurologicalDisfunction 1..1 and 
+                obesity 1..1
 
 * item[MyocardialInfarction].linkId = "MyocardialInfarction"
 * item[MyocardialInfarction].answer 1..1
@@ -48,3 +50,13 @@ Description: "Cuestionario utilizado para factores de riesgo "
 * item[previousCrm].answer 1..1
 * item[previousCrm].answer.value[x] only Coding
 * item[previousCrm].answer.value[x] from PreviousCrmVS
+
+* item[neurologicalDisfunction].linkId = "Neurological Disfunction"
+* item[neurologicalDisfunction].answer 1..1
+* item[neurologicalDisfunction].answer.value[x] only Coding
+* item[neurologicalDisfunction].answer.value[x] from NeurologicalDisfunctionVS
+
+* item[obesity].linkId = "Obesity"
+* item[obesity].answer 1..1
+* item[obesity].answer.value[x] only Coding
+* item[obesity].answer.value[x] from ObesityVS
