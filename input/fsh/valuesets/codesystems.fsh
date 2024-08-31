@@ -75,3 +75,22 @@ Description: "Categorización utilizada para descibir si el paciente tiene (o no
 
 * #400047006 "Peripheral vascular disease (disorder) "
 * #62914000 "Cerebrovascular disease (disorder)"
+
+CodeSystem: TypeOfDiseaseConditionCS
+Id: TypeOfDiseaseConditionCS
+Title: "Presencia de enfermedad"
+Description: "Categorización del tipo de enfermedad"
+* ^experimental = false
+* ^caseSensitive = true
+* ^status = #active
+* ^date = "2024-04-16"
+* ^contact.name = "Jaime González"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "jjgondiaz@gmail.com"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #371632003 "coma"
+* #230690007 "Cerebrovascular accident"
+* #36179005 "Reversible ischemic neurologic deficit syndrome"
+* #266257000 "Transient ischemic attack (disorder)"
+* #415582006 "Stenosis"
