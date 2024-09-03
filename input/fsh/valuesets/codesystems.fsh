@@ -132,5 +132,27 @@ Description: "Nombre del dispositivo a implantar"
 
 * #1 "sheaths_5f"
 * #2 "sheaths_6f"
-* #3  "sheaths_7f"
-* #4  "sheaths_8f"
+* #3 "sheaths_7f"
+* #4 "sheaths_8f"
+
+CodeSystem: DeviceContrastTypeCS
+Id: DeviceContrastTypeCS
+Title: "Tipo de implante"
+Description: "Tipo de implante"
+* ^experimental = false
+* ^caseSensitive = true
+* ^status = #active
+* ^date = "2024-04-16"
+* ^contact.name = "Jaime González"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "jjgondiaz@gmail.com"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "OMNIPAQUE"
+* #2 "OPTIRAY"
+* #3 "RELIEV/OPTIRAY"
+* #4 "RELIEV"
+* #5 "VISIPAQUE"
+
+
+
