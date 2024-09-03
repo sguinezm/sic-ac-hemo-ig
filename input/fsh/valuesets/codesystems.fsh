@@ -114,3 +114,23 @@ Description: "Ritmo del corazón en preoperación"
 * #49436004  "Atrial fibrillation (disorder)"
 * #27885002  "Complete atrioventricular block (disorder)"
 * #15976004  "Abnormal circadian rhythm (finding)"
+
+
+
+CodeSystem: DeviceNameCS
+Id: DeviceNameCS
+Title: "Nombre del dispositivo a implantar"
+Description: "Nombre del dispositivo a implantar"
+* ^experimental = false
+* ^caseSensitive = true
+* ^status = #active
+* ^date = "2024-04-16"
+* ^contact.name = "Jaime González"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "jjgondiaz@gmail.com"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "sheaths_5f"
+* #2 "sheaths_6f"
+* #3  "sheaths_7f"
+* #4  "sheaths_8f"
