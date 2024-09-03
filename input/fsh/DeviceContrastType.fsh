@@ -6,4 +6,6 @@ Description: "Tipo de constraste"
 * deviceName.type = #user-friendly-name
 * deviceName.name ^short = "Tipo de constraste utilizado durante el procedimiento de hemodinamia"
 
+
 * deviceName.name from DeviceContrastTypeVS
+* note ^short = "Valor del constraste ocupado"
