@@ -38,3 +38,5 @@ Description: "Registro del procedimiento de HEMO"
 
 
 
+* extension contains SurgeryRecommended named surgery_recommended 0..1 and
+  UrgencyLevelHEMO named urgency_level 0..1 and Preoperative named preoperative 0..1
